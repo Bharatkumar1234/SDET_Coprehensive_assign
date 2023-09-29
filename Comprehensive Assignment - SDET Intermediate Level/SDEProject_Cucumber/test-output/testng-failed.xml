@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="cucumber.SDEProject.MakemyTrip">
+        <methods>
+          <include name="i_click_the_Search_button"/>
+          <include name="i_am_on_the_MakeMyTrip_website"/>
+          <include name="i_select_one_way_trip"/>
+          <include name="i_enter_as_the_origin"/>
+          <include name="i_enter_as_the_departure"/>
+          <include name="i_select_the_start_date"/>
+          <include name="i_should_see_search_results"/>
+          <include name="i_select_the_return_date"/>
+          <include name="i_Handle_the_Frames_and_Popups"/>
+        </methods>
+      </class> <!-- cucumber.SDEProject.MakemyTrip -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
